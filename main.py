@@ -1,9 +1,9 @@
 import openai
-openai.api_key = "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"
+openai.api_key = "token"
 engine="text-davinci-003"
 import telebot
 from telebot import types
-bot = telebot.TeleBot('5988914219:AAGzKmLv8W_4zFqZK-oIKxMKNFX_EwSwkig')
+bot = telebot.TeleBot('token')
 
 @bot.message_handler(commands=['start'])
 def start(message):
